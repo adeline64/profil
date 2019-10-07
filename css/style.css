@@ -897,7 +897,7 @@ h5{
     cursor: pointer;
   } 
 
-  /*barre de competence 7*/
+  /*barre de competence 8*/
 
 .barre_h4{
       color: rgb(31, 33, 151);
@@ -960,8 +960,1126 @@ h5{
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
     background: -moz-linear-gradient(top, #099, #006A6B);
   }
-    
+
+  /* competence modal 9 */
   
+  .modal-content9 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  #myBtn_9{
+      width: 100%;
+
+  }
+  
+  .close9 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close9:hover,
+  .close9:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+  /*barre de competence 9*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+  }
+
+.progress-bar9 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar9:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar9:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue9:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+  }
+
+/* competence modal 10 */
+  
+.modal-content10 {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+}
+    
+#myBtn_10{
+          width: 100%;
+    
+}
+      
+.close10 {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+}
+      
+.close10:hover,
+.close10:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+} 
+    
+/*barre de competence 10*/
+    
+.barre_h4{
+          color: rgb(31, 33, 151);
+          letter-spacing: 2px;
+          text-align: center;
+          font-size: 18px;
+}
+    
+.progress-bar10 { 
+        margin: auto;
+        width: 300px;
+        height: 24px;
+        padding: 4px;
+        background-color: #191919;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+        -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+        -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+    
+.progress-bar10:before { 
+        content: '';
+        display: block;
+        position: absolute;
+        width: 170px;
+        height: 24px;
+        background: #999;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+    
+.progress-bar10:after { 
+        content: '|||||||||||||';
+        display: block;
+        position: absolute;
+        width: 170px;
+        height: 24px;
+        overflow: hidden;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        transform: skewX(-30deg);
+        -webkit-transform: skewX(-30deg);
+        -moz-transform: skewX(-30deg);
+        -o-transform: skewX(-30deg);
+        font: bold 120px/80px sans-serif;
+        letter-spacing: -6px;
+        color: #000;
+        opacity: 0.06;
+}
+    
+.blue10:before { 
+        background: #099;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+        background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 11 */
+  
+.modal-content11 {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+}
+    
+#myBtn_11{
+          width: 100%;
+    
+}
+      
+.close11 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+      
+.close11:hover,
+.close11:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+} 
+    
+/*barre de competence 11*/
+    
+.barre_h4{
+          color: rgb(31, 33, 151);
+          letter-spacing: 2px;
+          text-align: center;
+          font-size: 18px;
+}
+    
+.progress-bar11 { 
+        margin: auto;
+        width: 300px;
+        height: 24px;
+        padding: 4px;
+        background-color: #191919;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+        -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+        -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+    
+.progress-bar11:before { 
+        content: '';
+        display: block;
+        position: absolute;
+        width: 170px;
+        height: 24px;
+        background: #999;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+    
+.progress-bar11:after { 
+        content: '|||||||||||||';
+        display: block;
+        position: absolute;
+        width: 170px;
+        height: 24px;
+        overflow: hidden;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        transform: skewX(-30deg);
+        -webkit-transform: skewX(-30deg);
+        -moz-transform: skewX(-30deg);
+        -o-transform: skewX(-30deg);
+        font: bold 120px/80px sans-serif;
+        letter-spacing: -6px;
+        color: #000;
+        opacity: 0.06;
+}
+    
+.blue11:before { 
+        background: #099;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+        background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 12 */
+  
+.modal-content12 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_12{
+      width: 100%;
+
+}
+  
+.close12 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close12:hover,
+.close12:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 12*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar12 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar12:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar12:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue12:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 13 */
+  
+.modal-content13 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_13{
+      width: 100%;
+
+}
+  
+.close13 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close13:hover,
+.close13:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 13*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar13 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar13:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar13:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue13:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 14 */
+  
+.modal-content14 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_14{
+      width: 100%;
+
+}
+  
+.close14 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close14:hover,
+.close14:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 14*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar14 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar14:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar14:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue14:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 15 */
+  
+.modal-content15 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_15{
+      width: 100%;
+
+}
+  
+.close15 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close15:hover,
+.close15:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 15*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar15 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar15:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar15:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue15:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 16 */
+  
+.modal-content16 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_16{
+      width: 100%;
+
+}
+  
+.close16 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close16:hover,
+.close16:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 16*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar16 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar16:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar16:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue16:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 17 */
+  
+.modal-content17 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_17{
+      width: 100%;
+
+}
+  
+.close17 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close17:hover,
+.close17:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 17*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar17 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar17:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar17:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue17:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 18 */
+  
+.modal-content18 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_18{
+      width: 100%;
+
+}
+  
+.close18 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close18:hover,
+.close18:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 18*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar18 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar18:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar18:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue18:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 19 */
+  
+.modal-content19 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_19{
+      width: 100%;
+
+}
+  
+.close19 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close19:hover,
+.close19:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 19*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar19 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar19:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar19:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue19:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+
+/* competence modal 20 */
+  
+.modal-content20 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_20{
+      width: 100%;
+
+}
+  
+.close20 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close20:hover,
+.close20:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 20*/
+
+.barre_h4{
+      color: rgb(31, 33, 151);
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 18px;
+}
+
+.progress-bar20 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar20:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar20:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue20:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+
+
 
 @media all and (min-width: 1281px) and (max-width: 1300px){
     
