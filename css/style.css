@@ -2,8 +2,8 @@ body{
     font-family: 'Sawasdee', sans-serif;
     background-color: #666;
     max-width: 100%;
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 h1{
@@ -340,13 +340,6 @@ h5{
 
   /*barre de competence 2*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-  }
-
 .progress-bar2 { 
     margin: auto;
     width: 300px;
@@ -432,13 +425,6 @@ h5{
   } 
 
   /*barre de competence 3*/
-
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-  }
 
 .progress-bar3 { 
     margin: auto;
@@ -526,12 +512,6 @@ h5{
 
   /*barre de competence 4*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-  }
 
 .progress-bar4 { 
     margin: auto;
@@ -619,13 +599,6 @@ h5{
 
   /*barre de competence 5*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-  }
-
 .progress-bar5 { 
     margin: auto;
     width: 300px;
@@ -710,14 +683,7 @@ h5{
         cursor: pointer;
       } 
     
-      /*barre de competence 6*/
-    
-.barre_h4{
-          color: rgb(31, 33, 151);
-          letter-spacing: 2px;
-          text-align: center;
-          font-size: 18px;
-      }
+/*barre de competence 6*/
     
 .progress-bar6 { 
         margin: auto;
@@ -731,7 +697,7 @@ h5{
         box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
         -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
         -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    }
+}
     
 .progress-bar6:before { 
         content: '';
@@ -746,7 +712,7 @@ h5{
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
         -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
         -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    }
+}
     
 .progress-bar6:after { 
         content: '|||||||||||||';
@@ -766,13 +732,13 @@ h5{
         letter-spacing: -6px;
         color: #000;
         opacity: 0.06;
-    }
+}
     
 .blue6:before { 
         background: #099;
         background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
         background: -moz-linear-gradient(top, #099, #006A6B);
-      }
+}
 
 /* competence modal 7 */
 
@@ -804,13 +770,6 @@ h5{
   } 
 
   /*barre de competence 7*/
-
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-  }
 
 .progress-bar7 { 
     margin: auto;
@@ -898,13 +857,6 @@ h5{
   } 
 
   /*barre de competence 8*/
-
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-  }
 
 .progress-bar8 { 
     margin: auto;
@@ -1085,13 +1037,6 @@ h5{
     
 /*barre de competence 10*/
     
-.barre_h4{
-          color: rgb(31, 33, 151);
-          letter-spacing: 2px;
-          text-align: center;
-          font-size: 18px;
-}
-    
 .progress-bar10 { 
         margin: auto;
         width: 300px;
@@ -1177,13 +1122,6 @@ h5{
 } 
     
 /*barre de competence 11*/
-    
-.barre_h4{
-          color: rgb(31, 33, 151);
-          letter-spacing: 2px;
-          text-align: center;
-          font-size: 18px;
-}
     
 .progress-bar11 { 
         margin: auto;
@@ -1271,13 +1209,6 @@ font-weight: bold;
 
 /*barre de competence 12*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
-
 .progress-bar12 { 
     margin: auto;
     width: 300px;
@@ -1363,13 +1294,6 @@ font-weight: bold;
 } 
 
 /*barre de competence 13*/
-
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
 
 .progress-bar13 { 
     margin: auto;
@@ -1457,13 +1381,6 @@ font-weight: bold;
 
 /*barre de competence 14*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
-
 .progress-bar14 { 
     margin: auto;
     width: 300px;
@@ -1549,13 +1466,6 @@ font-weight: bold;
 } 
 
 /*barre de competence 15*/
-
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
 
 .progress-bar15 { 
     margin: auto;
@@ -1643,13 +1553,6 @@ font-weight: bold;
 
 /*barre de competence 16*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
-
 .progress-bar16 { 
     margin: auto;
     width: 300px;
@@ -1736,12 +1639,6 @@ font-weight: bold;
 
 /*barre de competence 17*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
 
 .progress-bar17 { 
     margin: auto;
@@ -1829,13 +1726,6 @@ font-weight: bold;
 
 /*barre de competence 18*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
-
 .progress-bar18 { 
     margin: auto;
     width: 300px;
@@ -1921,13 +1811,6 @@ font-weight: bold;
 } 
 
 /*barre de competence 19*/
-
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
 
 .progress-bar19 { 
     margin: auto;
@@ -2016,13 +1899,6 @@ font-weight: bold;
 
 /*barre de competence 20*/
 
-.barre_h4{
-      color: rgb(31, 33, 151);
-      letter-spacing: 2px;
-      text-align: center;
-      font-size: 18px;
-}
-
 .progress-bar20 { 
     margin: auto;
     width: 300px;
@@ -2078,7 +1954,600 @@ font-weight: bold;
     background: -moz-linear-gradient(top, #099, #006A6B);
 }
 
+/* competence modal 21 */
+  
+.modal-content21 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
 
+#myBtn_21{
+      width: 100%;
+
+}
+  
+.close21 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close21:hover,
+.close21:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 21*/
+
+.progress-bar21 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar21:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar21:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue21:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+/* competence modal 22 */
+  
+.modal-content22 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_22{
+      width: 100%;
+
+}
+  
+.close22 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close22:hover,
+.close22:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 22*/
+
+.progress-bar22 { 
+    margin: auto;
+    width: 300px;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar22:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar22:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.blue22:before { 
+    background: #099;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+    background: -moz-linear-gradient(top, #099, #006A6B);
+}
+
+
+/* competence modal 23 */
+  
+.modal-content23 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_23{
+      width: 100%;
+
+}
+  
+.close23 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close23:hover,
+.close23:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/*barre de competence 23*/
+
+.case_h2{
+    color: #006A6B;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+/* competence modal 24 */
+  
+.modal-content24 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_24{
+      width: 100%;
+
+}
+  
+.close24 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close24:hover,
+.close24:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+
+/* competence modal 25 */
+  
+.modal-content25 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_25{
+      width: 100%;
+
+}
+  
+.close25 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close25:hover,
+.close25:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+
+/* competence modal 26 */
+  
+.modal-content26 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_26{
+      width: 100%;
+
+}
+  
+.close26 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close26:hover,
+.close26:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+
+/* competence modal 27 */
+  
+.modal-content27 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_27{
+      width: 100%;
+
+}
+  
+.close27 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close27:hover,
+.close27:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+/* competence modal 28 */
+  
+.modal-content28 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_28{
+      width: 100%;
+
+}
+  
+.close28 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close28:hover,
+.close28:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* competence modal 29 */
+  
+.modal-content29 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_29{
+      width: 100%;
+
+}
+  
+.close29 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close29:hover,
+.close29:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* competence modal 30 */
+  
+.modal-content30 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_30{
+      width: 100%;
+
+}
+  
+.close30 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close30:hover,
+.close30:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* competence modal 31 */
+  
+.modal-content31 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_31{
+      width: 100%;
+
+}
+  
+.close31 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close31:hover,
+.close31:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* competence modal 32 */
+  
+.modal-content32 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_32{
+      width: 100%;
+
+}
+  
+.close32 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close32:hover,
+.close32:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* competence modal 33 */
+  
+.modal-content33 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#myBtn_33{
+      width: 100%;
+
+}
+  
+.close33 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close33:hover,
+.close33:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*case a cocher*/
+
+
+/* Cachons la case à cocher */
+form p {
+	position: relative; /* permet de positionner la checkbox cachée */
+}
+
+[type="checkbox"]:not(:checked), 
+[type="checkbox"]:checked {
+	/* Cache la checkbox sans
+	   la désactiver pour les
+	   lecteurs d'écran */
+	position: absolute;
+	left: 0;
+	opacity: 0.01;
+}
+
+/* on prépare le label */
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+	position: relative; /* permet de positionner les pseudo-éléments */
+	padding-left: 2.3em; /* fait un peu d'espace pour notre case à venir */
+	font-size: 1.05em; /* Label un peu plus gros */
+	line-height: 1.7;
+	cursor: pointer;    /* affiche un curseur adapté */
+}
+
+/* Aspect de la case */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1.4em;
+	height: 1.4em;
+	border: 1px solid #aaa;
+	background: #FFF;
+	border-radius: .2em;
+	box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 rgba(203, 34, 237, .2);
+	transition: all .275s;
+}
+
+/* Aspect de la coche */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+	content: '✕';
+	position: absolute;
+	top: .38em;
+	left: .18em;
+	font-size: 1.6em;
+	color: #CB22ED;
+	line-height: 0;
+	transition: all .2s; /* Petite transition */
+}
+
+/* Aspect non cochée */
+[type="checkbox"]:not(:checked) + label:after {
+	opacity: 0;
+	transform: scale(0) rotate(45deg);
+}
+
+/* Aspect cochée */
+[type="checkbox"]:checked + label:after {
+	opacity: 1;
+	transform: scale(1) rotate(0);
+}
+
+/* Disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+	box-shadow: none;
+	border-color: #bbb;
+	background-color: #e9e9e9;
+}
+
+/* Disabled checked */
+[type="checkbox"]:disabled:checked + label:after {
+	color: #777;
+}
+
+[type="checkbox"]:disabled + label {
+	color: #aaa;
+}
+
+/* Accessibility focus */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+	box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 6px rgba(203, 34, 237, .2);
+}
 
 
 @media all and (min-width: 1281px) and (max-width: 1300px){
