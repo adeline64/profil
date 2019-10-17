@@ -1,0 +1,108 @@
+.lieu{
+    float: left;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: .2px;
+    text-align: right;
+    border: 1.5px solid rgb(1, 2, 58);
+    padding: 24px 31px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px purple;
+    margin-left: 775px;
+    margin-top: -540px;
+}
+
+.lieu a{
+    text-decoration: none;
+    color: rgb(1, 2, 58);
+}
+
+body{
+    font-size:100%;
+    font-family: 'Sawasdee', sans-serif;
+  }
+  
+  .parent_textarea{
+    font-size:100%;
+  }
+  
+  fieldset{
+    width:410px;
+    padding:30px;
+    font-family: 'Sawasdee', sans-serif;
+    margin:50px 19px 9px 90px;
+    border:none;
+    background:white;
+    border:1.5px solid rgb(1, 2, 58);
+    position:relative;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px purple;
+  }
+  
+  input{color:blue;}
+  
+
+  
+  legend{
+    display:block;
+    position:absolute;
+    top:0px;
+    left:0;
+    right:0;
+    height:35px;
+    line-height:35px;
+  }
+  
+  label{
+    display:inline-block;
+    width:150px;
+  }
+  
+  
+   input[type="email"],input[type="text"]{
+    background:rgba(255,255,255,1);
+    height:40px;
+    width:117px;
+    border:1px solid rgb(1, 2, 58);
+    padding:0 20px;
+    margin:20px 0;
+    font-size:1.1em;
+    border-radius: 10px;
+  }
+
+  
+  textarea{
+    display:block;
+    width:350px;
+    padding:20px;
+    border:1px solid rgb(1, 2, 58);
+    margin:20px 0;
+    min-height:250px;
+    font-family: 'Sawasdee', sans-serif;
+    font-size:1.1em;
+    border-radius: 10px;
+    color:blue;
+  }
+  
+  input[type="submit"]{
+  text-decoration:none;
+  color:#F7F7F8;
+  display:block;
+  background:linear-gradient(to bottom, blue, black);
+  padding:20px 50px;
+  border-radius:5px;
+  border:1px solid black;
+  box-shadow:0 0 0 1px #FFF0D2 inset, 0 2px 2px #d0c2de;
+  margin:auto;
+  }
+  
+  input[type="submit"]:hover{
+    background:#FEAE00;
+  }
+  
+  input[type="submit"]:active{
+    background:#FEAE00;
+    box-shadow: 0 0px 10px rgba(178,37,78,0.5) inset; /*#b2254e*/
+  }
+  
+  
