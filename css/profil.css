@@ -1,32 +1,36 @@
 .resumer{
     clear: both;
-    border: 1.5px solid rgb(1, 2, 58);
     font-size: 24px;
     text-align: center;
     color: rgb(1, 2, 58);
-    padding: 12px 2px;
-    width: 579px;
-    margin-left: 512px;
+    margin-top: 48px !important;
     line-height: 36px;
+    width: auto;
     border-radius: 20px;
+    border: 1.5px solid rgb(1, 2, 58);
     box-shadow: 0 2px 2px purple;
+    display: inline-block;
+    padding: 0.2em 0.5em;
+
 }
+
 
 /*competence hamburger*/
 
 #menuToggle{
     display: block;
     position: relative;
-    top: 66px;
-    left: 50px;
+    top: 81px;
+    width: 100%;
+     margin-left: -13px; 
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
-  }
+}
   
-  #menuToggle input{
+#menuToggle input{
     display: block;
-    width: 40px;
+     width: 100%; 
     height: 32px;
     position: absolute;
     top: -7px;
@@ -35,9 +39,9 @@
     opacity: 0; 
     z-index: 2; 
     -webkit-touch-callout: none;
-  }
+}
   
-  #menuToggle span{
+#menuToggle span{
     display: block;
     width: 33px;
     height: 4px;
@@ -50,39 +54,35 @@
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
-  }
+}
   
-  #menuToggle span:first-child{
+#menuToggle span:first-child{
     transform-origin: 0% 0%;
     
-  }
+}
   
-  #menuToggle span:nth-last-child(2){
+#menuToggle span:nth-last-child(2){
     transform-origin: 0% 100%;
-  }
+}
   
-  
-  #menuToggle input:checked ~ span{
+#menuToggle input:checked ~ span{
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: blue;
-  }
+}
   
-  
-  #menuToggle input:checked ~ span:nth-last-child(3){
+#menuToggle input:checked ~ span:nth-last-child(3){
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
-  }
+}
   
-  
-  #menuToggle input:checked ~ span:nth-last-child(2){
+#menuToggle input:checked ~ span:nth-last-child(2){
     transform: rotate(-45deg) translate(0, -1px);
-  }
+}
   
-  #menu{
+#menu{
     position: absolute;
-    width: 624px;
-    margin: -87px 0 0 -50px;
+    margin: -87px 0 0 -61px;
     padding: 50px;
     padding-top: 104px;
     border-radius: 15px;
@@ -94,29 +94,29 @@
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
+}
   
-  #menu li{
+#menu li{
     padding: 10px 0;
     font-size: 18px;
     list-style: none;
-  }
+}
   
-  #menuToggle input:checked ~ ul{
+#menuToggle input:checked ~ ul{
     transform: none;
-  }
+}
   
-  #menu a{
+#menu a{
       text-decoration: none;
       color: rgb(11, 11, 11);
       transition: color 0.3s ease;
       letter-spacing: 2px;
       font-weight: 300;
-  }
+}
   
-  /* competence acordeon*/
+/* competence acordeon*/
   
-   .accordion{
+.accordion{
       background-color: #eee;
       color: rgb(39, 41, 161);
       cursor: pointer;
@@ -129,23 +129,23 @@
       transition: all 0.4s ease;
       border-radius: 10px;
       margin-top: 8px;
-    }
+}
   
-    .active, .accordion:hover{
+.active, .accordion:hover{
       background-color: #ccc;
-    }
+}
     
-  .panel{
+.panel{
       padding: 0 18px;
       display: none;
       overflow: hidden;
       margin-top: 8px;
       border-radius: 8px;
-  } 
+} 
   
-    /* competence modal 1 */
+/* competence modal 1 */
   
-  .modal{
+.modal{
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
       z-index: 1; /* Sit on top */
@@ -158,16 +158,16 @@
       background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
       margin-top: 8px;
       border-radius: 8px;
-  }
+}
     
-  .modal-content{
+.modal-content{
       background-color: rgba(245, 238, 238, 0.88);
       border-radius: 28px;
       margin: 15% auto; /* 15% from the top and centered */
       padding: 20px;
       border: 1px solid #888;
       width: 80%; /* Could be more or less, depending on screen size */
-  }
+}
   
   #myBtn{
         width: 100%;
@@ -198,9 +198,9 @@
   
   .progress-bar { 
       margin: auto;
-      width: 844px;
+      width: 100%;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -214,7 +214,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 113px;
+      width: 20%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -285,9 +285,8 @@
   
   .progress-bar2 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -301,7 +300,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 153px;
+      width: 20%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -372,9 +371,8 @@
   
   .progress-bar3 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -388,7 +386,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 191px;
+      width: 30%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -460,9 +458,8 @@
   
   .progress-bar4 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -476,7 +473,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 100px;
+      width: 20%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -547,9 +544,8 @@
   
   .progress-bar5 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -563,7 +559,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 34%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -634,9 +630,8 @@
       
   .progress-bar6 { 
           margin: auto;
-          width: 844px;
           height: 24px;
-          padding: 4px;
+          /* padding: 4px; */
           background-color: #191919;
           border-radius: 16px;
           -webkit-border-radius: 16px;
@@ -650,7 +645,7 @@
           content: '';
           display: block;
           position: absolute;
-          width: 170px;
+          width: 36%;
           height: 24px;
           background: #999;
           border-radius: 12px;
@@ -721,9 +716,8 @@
   
   .progress-bar7 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -737,7 +731,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 37%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -809,9 +803,8 @@
   
   .progress-bar8 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -825,7 +818,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 45%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -874,12 +867,12 @@
     }
   
   .html{
-      height: 100px;
-      width: auto;
+      height: 30%;
+      width: 30%;
       border: 2px solid rgb(1, 2, 58);
       float: left;
-      margin: -93px;
-      margin-left:15px;
+      margin: -73px;
+      margin-left:-12px;
       box-shadow: 0 2px 2px purple;
       border-radius: 12px;
   }
@@ -914,9 +907,8 @@
   
   .progress-bar9 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -930,7 +922,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 34%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1012,9 +1004,8 @@
       
   .progress-bar10 { 
           margin: auto;
-          width: 844px;
           height: 24px;
-          padding: 4px;
+          /* padding: 4px; */
           background-color: #191919;
           border-radius: 16px;
           -webkit-border-radius: 16px;
@@ -1028,7 +1019,7 @@
           content: '';
           display: block;
           position: absolute;
-          width: 170px;
+          width: 34%;
           height: 24px;
           background: #999;
           border-radius: 12px;
@@ -1099,9 +1090,8 @@
       
   .progress-bar11 { 
           margin: auto;
-          width: 844px;
           height: 24px;
-          padding: 4px;
+          /* padding: 4px; */
           background-color: #191919;
           border-radius: 16px;
           -webkit-border-radius: 16px;
@@ -1115,7 +1105,7 @@
           content: '';
           display: block;
           position: absolute;
-          width: 170px;
+          width: 45%;
           height: 24px;
           background: #999;
           border-radius: 12px;
@@ -1197,9 +1187,8 @@
   
   .progress-bar12 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1213,7 +1202,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 34%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1295,9 +1284,8 @@
   
   .progress-bar13 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1311,7 +1299,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 45%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1393,9 +1381,8 @@
   
   .progress-bar14 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1409,7 +1396,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 34%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1491,9 +1478,8 @@
   
   .progress-bar15 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1507,7 +1493,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 34%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1589,9 +1575,8 @@
   
   .progress-bar16 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1601,11 +1586,11 @@
       -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
   }
   
-  .progress-bar16:before { 
+.progress-bar16:before { 
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 34%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1616,7 +1601,7 @@
       -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
   }
   
-  .progress-bar16:after { 
+.progress-bar16:after { 
       content: '|||||||||||||';
       display: block;
       position: absolute;
@@ -1636,7 +1621,7 @@
       opacity: 0.06;
   }
   
-  .blue16:before { 
+.blue16:before { 
       background: #099;
       background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
       background: -moz-linear-gradient(top, #099, #006A6B);
@@ -1688,9 +1673,8 @@
   
   .progress-bar17 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1704,7 +1688,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 40%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1775,9 +1759,8 @@
   
   .progress-bar18 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1787,11 +1770,11 @@
       -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
   }
   
-  .progress-bar18:before { 
+.progress-bar18:before { 
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 34%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1802,7 +1785,7 @@
       -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
   }
   
-  .progress-bar18:after { 
+.progress-bar18:after { 
       content: '|||||||||||||';
       display: block;
       position: absolute;
@@ -1873,9 +1856,8 @@
   
   .progress-bar19 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1885,11 +1867,11 @@
       -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
   }
   
-  .progress-bar19:before { 
+.progress-bar19:before { 
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 30%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -1971,9 +1953,8 @@
   
   .progress-bar20 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -1987,7 +1968,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 40%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -2069,9 +2050,8 @@
   
   .progress-bar21 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -2085,7 +2065,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 30%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -2167,9 +2147,8 @@
   
   .progress-bar22 { 
       margin: auto;
-      width: 844px;
       height: 24px;
-      padding: 4px;
+      /* padding: 4px; */
       background-color: #191919;
       border-radius: 16px;
       -webkit-border-radius: 16px;
@@ -2183,7 +2162,7 @@
       content: '';
       display: block;
       position: absolute;
-      width: 170px;
+      width: 30%;
       height: 24px;
       background: #999;
       border-radius: 12px;
@@ -2657,27 +2636,3 @@
       box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 6px rgba(203, 34, 237, .2);
   }
   
-  
-  @media all and (min-width: 1281px) and (max-width: 1300px){
-     /*profil*/
-  
-      .prenom{
-          margin-left: 12px;
-      }
-  
-      .resumer{
-          margin-left: 58px;
-      }
-  
-      .lieu{
-          margin: -369px -10px 0 0;
-      }
-  
-      /*competence hamburger*/
-  
-  
-      #menu{
-          width: 546px;
-      }
-      
-  }
