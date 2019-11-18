@@ -133,23 +133,22 @@ h2 {
 
 @media(max-width: 850px){
 
-.menu {
-	display: block;
-	background-color: transparent;
-	padding: 12px;
+	.menu {
+		display: block;
+		background-color: transparent;
+		padding: 12px;
+		margin: 0px auto;
+		font-family: RockWell, sans-serif;
+	}
+
+	.menu a:hover {
+	color: aquamarine;
+	text-decoration: overline;
+	}
+
+	.resizeableheader {
 	margin: 0px auto;
-  font-family: RockWell, sans-serif;
-  }
-
-.menu a:hover {
-  color: aquamarine;
-  text-decoration: overline;
-}
-
-.resizeableheader {
-  margin: 0px auto;
-}
-
+	}
 
 }
 @media(max-width:1230px){
