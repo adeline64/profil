@@ -1,3 +1,15 @@
 .bj{
-    color: rgb(1, 2, 58);
+    color: rgb(1, 2, 58) !important;
+}
+
+.moi_body{
+    color: rgb(1, 2, 58) !important;
+}
+
+.montitre{
+    color: rgb(1, 2, 58) !important;
+}
+
+.card-title{
+    color: blueviolet;
 }

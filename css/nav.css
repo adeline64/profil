@@ -1,3 +1,4 @@
+
 header {
 	width: 100% !important;
 	background: rgb(17, 49, 109);
@@ -30,26 +31,17 @@ header {
     padding: 0.2em 0.5em;
 }
 
-.kicker {
-
-	text-align: center;
-	color: HoneyDew;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.5em;
-
-}
-
 nav ul a {
-	text-decoration: none;
+	text-decoration: none !important;
 	color: HoneyDew;
-	font-weight: 700;
-	text-transform: uppercase;
+	font-weight: 700 !important;
+	text-transform: uppercase !important;
 }
 
 nav ul {
 
-	list-style: none;
+	list-style: none !important;
+	text-align: center;
 }
 
 .menu-nav {
